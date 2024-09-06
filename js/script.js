@@ -19,10 +19,14 @@ function sendEmail(event) {
         document.getElementById("errorName").style.display = "block";
         isValid = false;
     }
-    if (email === "") {
+
+    // General email format validation
+    const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+    if (email === "" || !emailPattern.test(email)) {
         document.getElementById("errorEmail").style.display = "block";
         isValid = false;
     }
+
     if (subject === "") {
         document.getElementById("errorSubject").style.display = "block";
         isValid = false;
