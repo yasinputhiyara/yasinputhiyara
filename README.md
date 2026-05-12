@@ -1,4 +1,4 @@
-## Hi there 👋 I am Muhammed Yasin. 
+## Hi there 👋 I am Muhammed Yasin.
 <!--  
 **yasinputhiyara/yasinputhiyara** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
